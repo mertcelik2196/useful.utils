@@ -1,12 +1,12 @@
-![Image](https://img.shields.io/npm/v/useful.utils?color=%2351F9C0&label=useful-utils) 
-![Image](https://img.shields.io/npm/dt/useful.utils.svg?color=%2351FC0&maxAge=3600) 
+![Image](https://img.shields.io/npm/v/useful-utils-typescript?color=%2351F9C0&label=useful-utils-typescript) 
+![Image](https://img.shields.io/npm/dt/useful-utils-typescript.svg?color=%2351FC0&maxAge=3600) 
 #
-![Image](https://nodei.co/npm/useful.utils.png?downloads=true&downloadRank=true&stars=true)
+![Image](https://nodei.co/npm/useful-utils-typescript.png?downloads=true&downloadRank=true&stars=true)
 <br>
 
 ## Yüklemek İçin
 ```npm
-npm install useful.utils
+npm install useful-utils-typescript
 ```
 
 <br>
@@ -15,7 +15,7 @@ npm install useful.utils
 
 # JS 
 ```js
-const Useful = require("useful.utils");
+const Useful = require("useful-utils-typescript");
 const util = new Useful.Utils();
 
 console.log(util.matematik(20, "+" ,11)) 
