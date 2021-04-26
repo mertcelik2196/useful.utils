@@ -1,0 +1,32 @@
+{
+  "name": "useful.utils",
+  "version": "1.0.0",
+  "description": "✨ Bir Çok İşi Kolaylaştırır",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build && tsc",
+    "test": "npm run build && ts-node ./tests/simple.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mertcelik2196/useful.utils"
+  },
+  "author": "Mert Çelik",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.32",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "keywords": [
+    "useful",
+    "usefultools",
+    "useful-utils",
+    "util"
+  ]
+}
